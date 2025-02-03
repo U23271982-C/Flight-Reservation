@@ -1,0 +1,13 @@
+- arquitectura hexagonal
+- arquitectura en capas
+
+SE DESARROLLARÁ UNA ARQUITECTURA EN CAPAS
+- CONTROLLERS: se encarga de la comunicación externa
+- SERVICE: lógica de negocio
+- VALIDATORS: validar si los parámetros recibidos son correctos
+- REPOSITORIES: comunicación con una bd
+- CONNECTORS: conecxión con otros microservicios
+- MODEL: entidad de dominio
+- ENUMS/DTO: transversales
+- CONFIGURATIONS:
+- HELPERS/UTIL
