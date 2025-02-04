@@ -1,8 +1,13 @@
 package cont.com.dto;
 
-public class SegmentDTO {
-    private String origin;
+import cont.com.validation.CityFormatConstraint;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
+public class SegmentDTO {
+    @CityFormatConstraint
+    private String origin;
+    @CityFormatConstraint
     private String destination;
 
     private String departure;
